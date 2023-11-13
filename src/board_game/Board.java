@@ -72,8 +72,7 @@ public class Board {
 	}
 	
 	public boolean thereIsAPiece(Position position) {
-		System.out.println(position);
-		System.out.println(positionExists(position));
+
 		if(!positionExists(position)) {
 			
 			throw new BoardException("Position not on the board");
